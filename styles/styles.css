@@ -1,0 +1,84 @@
+body{
+    text-align: center;
+    border-radius: 6px;
+}
+header{
+    border-radius: 4px;
+    border: solid 2px gray;
+    text-align: center;
+    padding: 5px;
+    /*display: inline-flex;*/
+}
+
+h2{ /*Selector de Tipo*/
+    background-color: rgb(185, 185, 185);
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*display: flex;*/
+}
+
+.prueba{ /*Selector tipo clase*/
+   border-radius: 4px;
+   border: solid 1px;
+   background-color: rgb(51, 51, 51);
+   color: rgb(255, 237, 204);
+   font-style: oblique;
+   font-family: sans-serif;
+   margin: 5px;
+   /*diplay: none; */
+}
+
+#azul, #grisaceo{ /*Selector tipo ID*/
+    border-radius: 4px;
+    color: teal;
+    border: solid 2px;
+    padding: 10px;
+    /*display: block;*/
+}
+
+
+[lang="es-MX"], [lang="es-Es"], [title]{ /*Selector de atributo*/
+    color: rgb(33, 83, 78);
+    /*display: contents;*/
+}
+
+h2~p{ /*Selector Combinador General de Hermanos*/
+    border-radius: 4px;
+    border: solid 1px;
+    color: rgb(69, 8, 184);
+    background-color: darkseagreen;
+    font-variant: small-caps;
+    margin: 18px;
+    padding: 8px;
+    /*display: table;*/
+}
+
+h3+p{ /*selector combinador de hermanos adyacentes*/
+    border: solid 1px;
+    color: rgb(167, 119, 86);
+    border-style: dashed;
+    /*display: inline*/
+}
+
+ol>li{ /*Selector Combinador de hijo*/
+    border: solid 1px;
+    margin: 2px; 
+    color: firebrick;
+    /*display: flow*/
+}
+article ol{ /*Selector combinador de descendientes*/
+    border-radius: 7px;
+    background-color: lightgray;
+    display: inline-table;
+}
+
+tr,td{
+    background-color: khaki;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid teal 2px;
+    font-style: oblique;
+    /*display: inline-block;*/
+}
+
+
+
